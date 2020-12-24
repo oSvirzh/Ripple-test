@@ -6,14 +6,24 @@ import { ListStyled } from './list.styles';
 export const List = () => {
     return (
         <ListStyled>
-            <RippleStyled color="red">
-                <div className="first-item">
+            <RippleStyled>
+                <div className="item">
                     <p>Red</p>
                 </div>
             </RippleStyled>
             <RippleStyled color="green">
-                <div className="second-item">
+                <div className="item item--second">
                     <p>Green</p>
+                </div>
+            </RippleStyled>
+            <RippleStyled color="orange">
+                <div className="item item--rounded">
+                    <p>Orange rounded</p>
+                </div>
+            </RippleStyled>
+            <RippleStyled unbounded color="aqua">
+                <div className="item">
+                    <p>Aqua unbounded</p>
                 </div>
             </RippleStyled>
         </ListStyled>
