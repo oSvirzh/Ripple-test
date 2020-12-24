@@ -1,13 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import '@rmwc/ripple/styles';
+import { List } from './components/List/list.component';
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div className="App">
+            <List />
+        </div>
+    );
+};
 
 export default App;
